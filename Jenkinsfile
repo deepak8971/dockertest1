@@ -1,7 +1,7 @@
 pipeline {
     environment {
         registry = 'deepak8971/jenkins-test'
-        registryCredential = 'deepak8971'
+        registryCredential = 'dockerhub_id'
         dockerSwarmManager = '10.20.2.240:2375'
         dockerhost = '10.20.2.240'
         dockerImage = ''
